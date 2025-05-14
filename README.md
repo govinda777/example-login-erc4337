@@ -13,7 +13,7 @@ The server and client must be started separately.
 ## Start the server
 ```
 cd server
-npm install
+npm install --registry=https://registry.npmjs.org/
 npm start dev
 ```
 
@@ -28,6 +28,6 @@ Then change the `src/config.json` file to include the location of an ERC-4337 bu
 You may also need to change the `data-client_id` in the `g_id_onload` div in `App.tsx`. You can get one from Google.
 
 ```
-npm install
+npm install --registry=https://registry.npmjs.org/
 npm run start
 ```
